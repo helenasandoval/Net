@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2043
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfServiceApp", "WcfService1\WcfServiceApp.csproj", "{D16DDB90-79E0-40AB-9C7A-20D171783141}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcApp", "MvcApp2\MvcApp.csproj", "{FEB53CAD-4E98-46B0-91D1-8623BBB9854B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D16DDB90-79E0-40AB-9C7A-20D171783141} = {D16DDB90-79E0-40AB-9C7A-20D171783141}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D16DDB90-79E0-40AB-9C7A-20D171783141}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D16DDB90-79E0-40AB-9C7A-20D171783141}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D16DDB90-79E0-40AB-9C7A-20D171783141}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D16DDB90-79E0-40AB-9C7A-20D171783141}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEB53CAD-4E98-46B0-91D1-8623BBB9854B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEB53CAD-4E98-46B0-91D1-8623BBB9854B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEB53CAD-4E98-46B0-91D1-8623BBB9854B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEB53CAD-4E98-46B0-91D1-8623BBB9854B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3B1454FB-1EC0-44D0-95F4-E78E06CAEA81}
+	EndGlobalSection
+EndGlobal
